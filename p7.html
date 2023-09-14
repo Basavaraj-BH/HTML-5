@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+    <style>
+        dialog{
+            background-color: teal;
+            color: white;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>DETAILS TAG</h3>
+        <p>This tag is used to specify the additional details on the web page that the user can view or hide on demand.</p>
+    </center>
+    <hr>
+    <center>
+        <h3>This is a SUMMARY TAG</h3>
+        <p>The <b>HTML SUMMARY</b> tg is used with <b>DETAILS</b> tag. it is used as summary \, caption or legend for the content of a details element.</p>
+    </center>
+    <hr>
+    <details>
+        <summary>HTML</summary>
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores distinctio esse ut, adipisci perspiciatis reiciendis, illum eos aliquid quaerat minus a aperiam cum sit? Tenetur est voluptatem repellat necessitatibus.</p>
+    </details>
+    <details>
+        <summary>CSS</summary>
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores distinctio esse ut, adipisci perspiciatis reiciendis, illum eos aliquid quaerat minus a aperiam cum sit? Tenetur est voluptatem repellat necessitatibus.</p>
+    </details>
+    <details>
+        <summary>JS</summary>
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolores distinctio esse ut, adipisci perspiciatis reiciendis, illum eos aliquid quaerat minus a aperiam cum sit? Tenetur est voluptatem repellat necessitatibus.</p>
+    </details>
+    <hr>
+
+    <center>
+        <h3>TIME TAG..!</h3>
+        <p><b>HTML Time</b> tag is used to define data and time. it displays the time value in 24 hour clock or a precies data in a gregoriam calender in HTML</p>
+    </center>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maiores atque architecto accusamus officiis,2:30 excepturi inventore aliquam quibusdam itaque suscipit esse laborum tempora, eveniet rem quo in autem obcaecati accusantium.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae magni ab itaque dolorum inventore. <time>2:30</time>PM Quae tempore voluptates incidunt deleniti esse. Eius, vitae totam? Culpa voluptate dolore, optio dolores doloribus labore.</p>
+    <hr>
+
+    <center>
+        <h3>This is Dailog TAg..!</h3>
+        <p><b>( This atg is used to create a new popup dailog on a web page.)</b></p>
+    </center>
+    <hr>
+       <dialog id="dialoID">
+        <button type="button" id="close botton">&times;</button>
+        <h1>FULLSTOCK</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum enim distinctio, autem aspernatur eaque blanditiis illo, officiis ullam dolor repudiandae odio ratione eveniet! Laborum eligendi qui vero deserunt obcaecati reiciendis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima dolorem porro dignissimos eos nihil quia fugiat perspiciatis, consectetur nostrum eius adipisci. Quae architecto nihil vero laborum eum amet expedita magni! </p>
+       </dialog>
+
+       <button type="button" id="opendailog">Open Dailog Tag</button>
+       <script>
+        document.getElementById("openDAilog").onclick=function(){
+            document.getElementById("dailogID").show();
+        }
+        document.getElementById("closeDAilog").onclick=function(){
+            document.getElementById("dailogID").close();
+        }
+       </script>
+</body>
+</html>
